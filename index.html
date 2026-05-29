@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+ 
+  <!-- ── NAV ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">dev<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+  </nav>
+ 
+  <!-- ── HERO ────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Available for freelance</div>
+      <h1 class="hero-title">
+        <span class="line">I build</span>
+        <span class="line"><em>digital</em></span>
+        <span class="line">experiences.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Full-stack web developer crafting fast, accessible, and beautifully engineered products that make people stop and notice.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">View My Work</a>
+        <a href="#about" class="btn-outline">About Me</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">1+</div>
+          <div class="stat-label">Years exp.</div>
+        </div>
+        <div>
+          <div class="stat-num">5</div>
+          <div class="stat-label">Projects done</div>
+        </div>
+        <div>
+          <div class="stat-num">3</div>
+          <div class="stat-label">Happy clients</div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="code-bar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="code-line"><span class="cm">// portfolio.js — v2.0</span></div>
+        <div class="code-line">&nbsp;</div>
+        <div class="code-line"><span class="kw">const</span> developer = {</div>
+        <div class="code-line">&nbsp;&nbsp;name: <span class="str">"Marlon Balagtas"</span>,</div>
+        <div class="code-line">&nbsp;&nbsp;role: <span class="str">"Full-Stack Dev"</span>,</div>
+        <div class="code-line">&nbsp;&nbsp;stack: [<span class="str">"React"</span>, <span class="str">"Node"</span>, <span class="str">"TS"</span>],</div>
+        <div class="code-line">&nbsp;&nbsp;coffee: <span class="num">Infinity</span>,</div>
+        <div class="code-line">};</div>
+        <div class="code-line">&nbsp;</div>
+        <div class="code-line"><span class="fn">buildSomethingGreat</span>(developer);<span class="code-cursor"></span></div>
+      </div>
+    </div>
+  </section>
+ 
+  <hr class="divider">
+ 
+  <!-- ── ABOUT ───────────────────────────────────────── -->
+  <section id="about">
+    <div class="about-img-wrap">
+      <div class="about-img-placeholder">👤</div>
+    </div>
+    <div class="about-text">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">Turning ideas into <em>real code</em></h2>
+      <p style="margin-top:1.2rem;">
+        I'm a web developer based in Manila who loves building products that feel fast, look sharp, and just work. I care deeply about performance, accessibility, and clean architecture.
+      </p>
+      <p>I am also a game developer with experience using Unity and Node.js to create interactive and scalable game applications.</p>
+      <p>
+        When I'm not pushing pixels or wrangling APIs, I'm reading about new web standards or contributing to open-source projects.
+      </p>
+    </div>
+  </section>
+  <!-- ── SERVICES ─────────────────────────────────────── -->
+  <section id="services">
+    <div class="section-header">
+      <div class="section-label">What I Do</div>
+      <h2 class="section-title">Services I <em>offer</em></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-icon">⚙️</span>
+        <div class="service-name">Full-Stack Development</div>
+        <div class="service-desc">End-to-end product development — from database schema to polished UI, built for scale and maintainability.</div>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">🎨</span>
+        <div class="service-name">Frontend Engineering</div>
+        <div class="service-desc">Pixel-perfect interfaces with smooth interactions, built on React, Next.js, or Vue with performance as a priority.</div>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">🔌</span>
+        <div class="service-name">API & Backend</div>
+        <div class="service-desc">RESTful and GraphQL APIs, serverless functions, and robust backend systems using Node.js and cloud services.</div>
+      </div>
+    </div>
+  </section>
+ 
+  <hr class="divider">
+ 
+  <!-- ── PROCESS ──────────────────────────────────────── -->
+  <section id="process">
+    <div class="section-header">
+      <div class="section-label">How I Work</div>
+      <h2 class="section-title">My <em>process</em></h2>
+    </div>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-title">Discover</div>
+        <div class="step-desc">Understand your goals, users, and constraints before writing a single line of code.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-title">Plan</div>
+        <div class="step-desc">Architecture, tech stack, and timeline — mapped out clearly so there are no surprises.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-title">Build</div>
+        <div class="step-desc">Iterative development with regular check-ins, clean commits, and tested code throughout.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <div class="step-title">Launch</div>
+        <div class="step-desc">Deploy with confidence — performance audits, monitoring, and post-launch support included.</div>
+      </div>
+    </div>
+  </section>
+ 
+  <hr class="divider">
+ 
+  <!-- ── CONTACT ──────────────────────────────────────── -->
+  <section id="contact">
+    <div class="section-header">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Let's build something <em>together</em></h2>
+      <p class="section-desc">Have a project in mind or just want to say hello? My inbox is always open.</p>
+    </div>
+    <a href="mailto:hello@yourname.dev" class="contact-email">Balagtas020613@gmail.com</a>
+    <div class="social-links">
+      <a href="#" class="social-link">GitHub</a>
+      <a href="#" class="social-link">LinkedIn</a>
+      <a href="#" class="social-link">Twitter / X</a>
+      <a href="#" class="social-link">Dribbble</a>
+    </div>
+  </section>
+ 
+  <!-- ── FOOTER ───────────────────────────────────────── -->
+  <footer>
+    <div class="footer-copy">© 2026 <span>Balagtas</span> — All rights reserved.</div>
+    <a href="#hero" class="footer-back">Back to top ↑</a>
+  </footer>
+ 
+  <script src="myscript.js"></script>
+</body>
+</html>
