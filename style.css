@@ -476,6 +476,7 @@ footer {
   .step::after { display: none; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .nav-links { display: none; }
+}
 
 /* ─── can open in mobile ─────────────────────────────────── */
 
