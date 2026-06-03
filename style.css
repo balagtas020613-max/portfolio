@@ -296,6 +296,40 @@ section { padding: 7rem clamp(1.5rem, 5vw, 4rem); }
   display: flex; align-items: center; justify-content: center;
   font-size: 4rem; opacity: .15;
 }
+.about-img-wrap {
+    width: 450px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-img-wrap {
+    position: relative;
+    width: 450px;
+    height: 550px;
+}
+
+.about-img-wrap::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #c7f03d;
+    z-index: -1;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
 .about-img-wrap::after {
   content: '';
   position: absolute; inset: 1rem -1rem -1rem 1rem;
